@@ -1,6 +1,6 @@
 | Table            | Field              | Description                                                                                                                                                            | Data Type |
 |------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Course Offerings | CourseID           | PK, The identifing interger for a specific course. This field is also found int he Course Catologs table                                                               | Int       |
+| Course Offerings | CourseOfferingID           | PK, The identifing interger for a specific course. This field is also found int he Course Catologs table                                                               | Int       |
 | Course Offerings | Term               | The semester and year the course is offered (Fall, Spring, Summer, Winter)                                                                                             | Text      |
 | Course Offerings | CRN                | Course reference number                                                                                                                                                | Int       |
 | Course Offerings | CatalogID          | The department abreviation and course number                                                                                                                           | Text      |
