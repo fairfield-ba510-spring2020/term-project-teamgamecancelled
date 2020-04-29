@@ -2,18 +2,18 @@ BA 0510 Final Project - Team Game Cancelled
 Michael Disanto, James Neri and Monika Sivilli
 
 Overview: 
-In this project, we created a normalized database for Fairfield University's Academic Calander and Course Catalogs. During our ETL process, we loaded data into a normalized database of our own design. We tested the domain, entity and relational integrity of our databases and demonstrated that all the course objectives were met. 
+In this project, we created a normalized database for Fairfield University's Academic Calander and Course Catalogs. 
 
 1) Design a normalized relational database that can contain all CSV data in your SourceData repository. Document the design with an ERD and a data dictionary.
 
 [Course Data Dictionary](Docs/CourseDataDictionary.md)
 [CourseDataERD](ERD_StarSchema/CoursedataERD.ipynb)
 
-2) Create a SQLite database called CourseData.db in this folder. The database should exactly match your ERD. Populate the database with data from the CSV files.
+2) Create a SQLite database called CourseData.db in this folder. The database should exactly match your ERD. Populate the database with data from the CSV files. During our ETL process, we loaded data into a normalized database of our own design. 
 
 [CourseDataETL](CourseDataETL.ipynb)
 
-3) Design and build data warehouse called CourseDataWarehouse.db. Here we designed a Star Schema and tested 
+3) Design and build data warehouse called CourseDataWarehouse.db. Here we designed a Star Schema and tested the domain, entity and relational integrity of our databases and demonstrated that all the course objectives were met.   
 
 [CourseDataWarehouse](CourseDataWarehouse.ipynb)
 
